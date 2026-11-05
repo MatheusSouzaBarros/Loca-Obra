@@ -1,0 +1,27 @@
+{
+  "name": "loca-obra-sgev",
+  "version": "1.0.0",
+  "description": "Loca Obra - SGEV: gestão de locação de equipamentos",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "node --test \"tests/**/*.test.js\"",
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "seed": "node src/config/seed.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "better-sqlite3": "^13.0.3",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.7.1",
+    "helmet": "^8.3.0",
+    "jsonwebtoken": "^9.0.3"
+  },
+  "engines": {
+    "node": ">=20.12"
+  }
+}
